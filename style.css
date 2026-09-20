@@ -1,0 +1,204 @@
+/* ===== BODY ===== */
+body {
+    background-color: #1a1a2e;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 30px;
+}
+
+
+/* ===== NAVIGATION ===== */
+nav {
+    margin-bottom: 40px;
+    padding: 15px;
+    border: 2px solid #ff69b4;
+    border-radius: 30px;
+}
+
+nav a {
+    color: #ff69b4;
+    text-decoration: none;
+    font-size: 17px;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: white;
+}
+
+
+/* ===== HOME ===== */
+.home {
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.home h1 {
+    color: #ff69b4;
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.home p {
+    font-size: 18px;
+}
+
+
+/* ===== IMAGE ===== */
+.home img {
+    width: 200px;
+    height: 200px;
+    border: 4px solid #ff69b4;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 20px;
+}
+
+
+/* ===== SECTIONS ===== */
+section {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 25px;
+}
+
+
+/* ===== HEADINGS ===== */
+h2 {
+    color: #ff69b4;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #ff69b4;
+    font-size: 23px;
+}
+
+
+/* ===== PARAGRAPHS ===== */
+p {
+    color: white;
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+
+/* ===== LIST ===== */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    color: white;
+    font-size: 18px;
+    margin: 12px;
+}
+
+
+/* ===== CARD ===== */
+.card,
+.project-card {
+    background-color: #22223b;
+    border: 2px solid #ff69b4;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 650px;
+    box-shadow: 0 0 15px rgba(255, 105, 180, 0.25);
+}
+
+
+/* ===== PROJECT CARD ===== */
+.project-card {
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 25px rgba(255, 105, 180, 0.5);
+}
+
+
+/* ===== CONTACT LINK ===== */
+#contact a {
+    color: #ff69b4;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+
+/* ===== FOOTER ===== */
+footer {
+    margin-top: 50px;
+    padding: 20px;
+    border-top: 2px solid #ff69b4;
+}
+
+footer p {
+    font-size: 15px;
+    color: #cccccc;
+}
+
+
+/* ===== MOBILE RESPONSIVE ===== */
+@media (max-width: 768px) {
+
+    body {
+        padding: 15px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 7px;
+        font-size: 15px;
+    }
+
+    .home h1 {
+        font-size: 32px;
+    }
+
+    section {
+        padding: 15px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .home img {
+        width: 170px;
+        height: 170px;
+    }
+}
+/* ===== PROJECT BUTTON ===== */
+.project-button {
+    display: inline-block;
+    background-color: #ff69b4;
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 15px;
+    border: 2px solid #ff69b4;
+    transition: 0.3s;
+}
+
+/* Button Hover */
+.project-button:hover {
+    background-color: white;
+    color: #ff69b4;
+    border: 2px solid #ff69b4;
+    transform: scale(1.05);
+}
